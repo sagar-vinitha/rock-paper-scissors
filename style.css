@@ -1,0 +1,79 @@
+.head{
+    text-align: center;
+    color: rgb(92, 9, 115);
+}
+body{
+    background:  url("https://www.wikihow.com/images/b/b3/Play-Rock,-Paper,-Scissors-Step-10-Version-5.jpg");
+    background-size: cover;     /* Scale image to cover whole screen */
+  background-repeat: no-repeat;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 50%;
+   
+   
+    justify-content: center;
+    justify-content: space-evenly;
+
+    align-items: center;
+
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.image{
+    height: 100px;
+    width: 120px;
+    border-radius: 50%;
+}
+.scores{
+    display: flex;
+
+
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+
+}
+input{
+    border: none;
+    background-color: transparent;
+    font-size:100px;
+    width: 200px;
+    margin-left: 60px;
+    color: rgb(19, 19, 19);
+    
+  
+    
+}
+label{
+    background-color: rgb(44, 213, 47);
+    height: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+#announce{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+
